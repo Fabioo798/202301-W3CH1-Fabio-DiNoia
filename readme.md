@@ -3,7 +3,7 @@
 ## GoT DOM
 Tendrás que programar un interfaz de usuario para que refleje el siguiente modelo de datos.
 
-### Modelo de datos
+## Modelo de datos
 En Juego de Tronos existen personajes. Todos esos personajes tienen la siguiente información:
 
 Nombre
@@ -37,7 +37,7 @@ Personaje al que sirve (que sólo puede ser luchador)
 Grado de servilismo (un valor entre 0 y 10)
 Cuando se comunica dice: "Soy un loser"
 
-#### Conjunto de datos
+## Conjunto de datos
 
 Crea los siguientes archivos JS y haz que funcionen como módulos mediante import y export:
 
@@ -50,7 +50,7 @@ Tyrion Lannister (asesor de Daenerys) y
 Bronn (escudero de Jaime).)
 index.js (aquí va todo el resto del enunciado, y éste será el punto de entrada)
 
-##### Creación del interface
+## Creación del interface
 
 Haz que por cada personaje del array se muestre la ficha correspondiente en el navegador:
 En el elemento con clase emoji tiene que aparecer uno de estos emojis dependiendo del tipo de personaje: 👑 🗡 🎓 🛡
