@@ -1,7 +1,7 @@
 {
-  "name": "week2 - TS",
+  "name": "Fabio",
   "version": "1.0.0",
-  "description": "Ejercicios semana 2 . Bootcamp Madrid",
+  "description": "first challange of the week",
   "main": "index.js",
   "type": "module",
   "scripts": {
