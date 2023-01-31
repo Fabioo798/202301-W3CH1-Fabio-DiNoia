@@ -7,11 +7,10 @@ export class Squire extends Got {
     name: string,
     family: string,
     age: number,
-    status: boolean,
     serve: string,
-    grade: number,
+    grade: number
   ) {
-    super(name, family, age, status, 'Soy un loser');
+    super(name, family, age, 'Soy un loser');
     this.serve = serve;
     this.grade = grade;
   }

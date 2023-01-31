@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/object-curly-spacing */
+/* eslint-disable @typescript-eslint/indent */
 import { Got } from './GoT';
 
 export class King extends Got {
@@ -6,10 +8,10 @@ export class King extends Got {
     name: string,
     family: string,
     age: number,
-    status: boolean,
+
     onTheThroneSince: number,
   ) {
-    super(name, family, age, status, 'Vais a morir todos');
+    super(name, family, age, 'Vais a morir todos');
     this.onTheThroneSince = onTheThroneSince;
   }
 }
