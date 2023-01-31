@@ -1,18 +1,18 @@
-import {Got} from './Character';
+import { Got } from './GoT';
 
 export class Fighter extends Got {
-	weapon;
-	dexterity;
-	constructor(
-		name: string,
-		family: string,
-		age: number,
-		status: boolean,
-		weapon: string,
-		dexterity: number,
-	) {
-		super(name, family, age, status, 'Primero pego y luego pregunto');
-		this.weapon = weapon;
-		this.dexterity = dexterity;
-	}
+  weapon;
+  dexterity;
+  constructor(
+    name: string,
+    family: string,
+    age: number,
+    status: boolean,
+    weapon: string,
+    dexterity: number,
+  ) {
+    super(name, family, age, status, 'Primero pego y luego pregunto');
+    this.weapon = weapon;
+    this.dexterity = dexterity;
+  }
 }
